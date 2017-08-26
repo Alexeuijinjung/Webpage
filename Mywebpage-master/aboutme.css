@@ -1,0 +1,12 @@
+body {
+	background-color: #94e8ff;
+	margin:0px;
+	
+}
+
+div.scrollmenu {
+	background-color: #f0ffbf;
+	overflow: auto:
+	white-space: nowrap;
+}
+
