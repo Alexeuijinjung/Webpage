@@ -1,5 +1,15 @@
 import pygame
 import Projectile
+from Tkinter import *
+file = "Hypnotic-Puzzle.mp3"
+root = Tk()
+pygame.init()
+pygame.mixer.init()
+pygame.mixer.music.load(file)
+pygame.mixer.music.play()
+root.mainloop()
+
+
 
 pygame.init()
 screen = pygame.display.set_mode((800,600))
